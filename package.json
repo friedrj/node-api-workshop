@@ -1,0 +1,27 @@
+{
+  "name": "node-api-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JiriFriedrich/node-api-workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JiriFriedrich/node-api-workshop/issues"
+  },
+  "homepage": "https://github.com/JiriFriedrich/node-api-workshop#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.8.7"
+  },
+  "devDependencies": {
+    "morgan": "^1.8.1"
+  }
+}
